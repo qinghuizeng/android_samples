@@ -15,7 +15,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:singleLine="true"
-		android:text="我爱Java我爱Java我爱Java我爱Java我爱Java我aaaJava"
+		android:text="我爱Java我爱Java我爱Java我爱Java我爱Java我aaaJava我爱Java我爱Java我爱Java我爱Java我爱Java我aaaJava"
 		android:ellipsize="middle"
 		android:textAllCaps="true"/>
 	<!-- 对邮件、电话增加链接 -->
@@ -31,7 +31,7 @@
 		android:layout_height="wrap_content"
 		android:text="测试文字"
 		android:shadowColor="#00f"
-		android:shadowDx="10.0"
+		android:shadowDx="2.0"
 		android:shadowDy="8.0"
 		android:shadowRadius="3.0"
 		android:textColor="#f00"
