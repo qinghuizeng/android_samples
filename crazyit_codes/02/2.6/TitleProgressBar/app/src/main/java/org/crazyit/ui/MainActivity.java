@@ -16,7 +16,7 @@ public class MainActivity extends Activity
 		//设置窗口特征：启用显示进度的进度条
 		requestWindowFeature(Window.FEATURE_PROGRESS);  //①
 		//设置窗口特征：启用不显示进度的进度条
-//		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS); //②
+		//requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS); //②
 		setContentView(R.layout.main);
 		Button bn1 = (Button)findViewById(R.id.bn1);
 		Button bn2 = (Button)findViewById(R.id.bn2);
