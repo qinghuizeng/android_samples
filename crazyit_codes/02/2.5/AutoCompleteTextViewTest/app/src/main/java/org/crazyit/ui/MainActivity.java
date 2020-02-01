@@ -28,9 +28,11 @@ public class MainActivity extends Activity
 		// 创建一个ArrayAdapter，封装数组
 		ArrayAdapter<String> aa = new ArrayAdapter<String>(this,
 				android.R.layout.simple_dropdown_item_1line, books);
+
+		ArrayAdapter<String > bb = new ArrayAdapter<String>(this, android.R.layout.simple_selectable_list_item, books);
 		actv = (AutoCompleteTextView)findViewById(R.id.auto);
 		// 设置Adapter
-		actv.setAdapter(aa);
+		actv.setAdapter(bb);
 		mauto = (MultiAutoCompleteTextView)findViewById(R.id.mauto);
 		// 设置Adapter
 		mauto.setAdapter(aa);
