@@ -27,7 +27,7 @@ public class MainActivity extends Activity
 			public void onClick(View v)
 			{
 				// 以下拉方式显示
-				// popup.showAsDropDown(v);
+				//popup.showAsDropDown(v);
 				//将PopupWindow显示在指定位置
 				popup.showAtLocation(findViewById(R.id.bn),
 					Gravity.CENTER, 20,20);
